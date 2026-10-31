@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+ortools==9.15.6755
+pydantic
+pydantic-settings
+python-dotenv
+httpx
+pytest

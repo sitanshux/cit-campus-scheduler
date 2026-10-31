@@ -1,0 +1,71 @@
+{
+  "id": "sample-disruption",
+  "dataset": "cit-public-v1",
+  "description": "Practice disruption for the public dataset. The live one in judging has the same format.",
+  "changes": [
+    {
+      "type": "faculty_unavailable",
+      "faculty_id": "F07",
+      "days": [
+        "MON"
+      ],
+      "periods": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reason": "Conference travel every Monday for the rest of the semester"
+    },
+    {
+      "type": "room_unavailable",
+      "room_id": "CR-102",
+      "days": [
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI"
+      ],
+      "periods": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "reason": "Water leak, room closed for the rest of the semester"
+    },
+    {
+      "type": "add_session",
+      "session": {
+        "id": "CS202-T2",
+        "course_id": "CS202",
+        "kind": "tutorial",
+        "groups": [
+          "CSE-2"
+        ],
+        "faculty_id": "F06",
+        "size": 80,
+        "duration": 1,
+        "room_types": [
+          "classroom",
+          "lecture_hall",
+          "auditorium"
+        ],
+        "needs_accessible": false,
+        "basket_slot": null,
+        "fixed_slot": null
+      }
+    }
+  ]
+}
